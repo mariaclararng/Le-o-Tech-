@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aula 03</title>
+</head>
+<body>
+    <h1>Trabalhando com Tabelas</h1>
+
+    <>
+    <tr>
+        <th>Nome</th>
+        <th>idade</th>
+        <th>Cidade</th>
+    </tr>
+    <tr>
+         <td>Ana</td>
+         <td>20</td>
+         <td>Maracanaú</td>
+    </tr>
+    <tr>
+         <td>MC</td>
+         <td>24</td>
+         <td>Fortaleza</td>
+
+    </tr>
+
+    <table>
+    <br>
+    <hr>
+    <br>
+    <table>
+        <tr>
+            <th>Liguagens</th>
+            <th>Frameworks</th>
+        </tr>
+        <tr>
+            <td rowspan="2">Python</td>
+            <td>Flask</td>
+        </tr>
+        <tr>
+            <td>FastAPI</td>
+        </tr>
+        <tr>
+            <td rowspan="2">JavaScript</td> 
+            <td>React</td>   
+        </tr>
+        <tr>
+            <td>Angular</td>
+        </tr>
+
+    </table>
+
+
+    </table>
+
+<!-- cole essa tag de css dentro do body do exercício 1 -->
+        <style>
+            table, th, td {
+                border: 1px solid black;
+                border-collapse: collapse;
+                padding: 10px;
+            }
+
+            th{
+                background-color: white;
+                text-align:left
+            
+            }
+            img{
+	              width: 30px;
+            }
+        </style>
+
+
+    <hr>
+    <table>
+        <h1>Tabela de Medalhas dos Jogos Olímpicos</h1>
+
+        <tr>
+            <th colspan="2">Equipe</th>
+
+            <th><img src="images/prata.png" alt=""></th>
+            <th><img src="images/bronze.png" alt=""></th>
+            <th><img src="images/ouro.png" alt=""></th>
+            <th>Total</th>
+        </tr>
+
+        <tr>
+            <td><img src="images/noruega.jpg" alt=""></td>
+            <th>Noruega</th>
+            <th>16</th>
+            <th>8</th>
+            <th>13</th>
+            <th>37</th>
+        </tr>
+        
+        <tr>
+            <td><img src="images/roc.jpg" alt=""></td>
+            <th>roc</th>
+            <th>6</th>
+            <th>12</th>
+            <th>14</th>
+            <th>32</th>
+        </tr>
+        
+        <tr>
+            <td><img src="images/alem.jpg" alt=""></td>
+            <th>Alemanha</th>
+            <th>12</th>
+            <th>10</th>
+            <th>5</th>
+            <th>27</th>
+        </tr>
+
+        <tr>
+            <td><img src="images/canada.jpg" alt=""></td>
+            <th>Canadá</th>
+            <th>4</th>
+            <th>8</th>
+            <th>14</th>
+            <th>26</th>
+        </tr>
+
+        <tr>
+            <td><img src="images/EUA.jpg" alt=""></td>
+            <th>Estados Unidos da América</th>
+            <th>8</th>
+            <th>10</th>
+            <th>7</th>
+            <th>25</th>
+        </tr>
+    </table>
+
+    <hr>
+<table>
+
+    <tr>
+        <td colspan="2" rowspan="2"></td>
+        <th colspan="3">Demografia</th>
+    </tr>
+
+    <tr>
+        <th>Boys</th>
+        <th>Girls</th>
+        <th>Teacher</th>
+    </tr>
+
+    <tr>
+        <th rowspan="4">Turmas</th>
+        <th>A</th>
+        <td>20</td>
+        <td>5</td>
+        <td rowspan="2">João Pedro</td>
+    </tr>
+
+    <tr>
+        <th>B</th>
+        <td>21</td>
+        <td>3</td>
+    </tr>
+
+    <tr>
+        <th>C</th>
+        <td>25</td>
+        <td>2</td>
+        <td rowspan="2">Maria João</td>
+    </tr>
+
+    <tr>
+        <th>D</th>
+        <td>20</td>
+        <td>0</td>
+    </tr>
+    
+    <tr>
+        <th rowspan="2" colspan="2">Total</th>
+        <td>86</td>
+        <td>10</td>
+        <td>2</td>
+
+    </tr>
+</table>
+
+<hr>
+<style>
+
+#ProcessosTJCE{
+
+background-color: rgb(150, 150, 182);
+color: black;
+}
+
+label {
+    font-weight: bold;
+}
+
+
+
+</style>
+<h1 id="ProcessosTJCE">Processos TJCE</h1>
+
+<form>
+    <label for="Nome Completo"> Nome Servidor(a): </label> <br>
+    <input id="Nome Completo" type="text"> <br>
+
+    <label for="E-mail"> E-mail: </label> <br>
+    <input type="E-mail" name="text"> 
+
+    <label for="">Matricula: </label>
+    <input type="" step="" min="0" max="120"> <br>
+
+    <label for="">Cpf:</label> <br>
+    <input type="cpf"> <br><br>
+
+    <hr>
+
+    <h2>Comarcas do Tribunal de Justiça</h2>
+
+    <input type="radio" id="Fort" name="Comarcas" id="">
+    <label for="Fortaleza">Fortaleza</label> <br>
+
+    <input type="radio" id="Fort" name="Comarcas" id="">
+    <label for="Região Met">Região Metropolitana</label> <br>
+
+    <input type="radio" id="Fort" name="Comarcas" id="">
+    <label for="Interior">Interior</label> <br> <br>
+
+    <hr>
+
+    <h2>Unidade Judiciária</h2>
+
+    <input type="checkbox" id="Fort" name="Comarcas" id="">
+    <label for="Fortaleza">2° Vara Cível da Comarca de Fortaleza</label> <br>
+
+    <input type="checkbox" id="Fort" name="Comarcas" id="">
+    <label for="Fortaleza">15° Vara Criminal de Juazeiro do Norte </label> <br>
+
+    <input type="checkbox" id="Fort" name="Comarcas" id="">
+    <label for="Fortaleza">Centro Judiciário de Solução de Conflitos <labe> <br>
+    <input type="checkbox" id="Fort" name="Comarcas" id="">
+    <label for="Fortaleza">3° Vara de Família da Comarca de Maracanaú</label> <br>
+
+
+    <hr>
+
+    <h2>Comentários</h2>
+    
+    <textarea name="" id="" rows="5" cols="30" placeholder="Ex: Gostaria de um retorno do processo..." maxlength="10" required></textarea> <br> <br>
+
+    <button>Enviar</button>
+
+</form>
+
+</body>
+</html>
